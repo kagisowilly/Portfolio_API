@@ -3,6 +3,7 @@ var app = express();
 const cors = require("cors");
 app.use(cors());
 
+// RESUME ARRAY
 let resumes=  [
     {
       title: "Web Development",
@@ -56,12 +57,61 @@ let resumes=  [
       period: "January 2012 - December 2014",
     }
   ];
+// PROJECTS ARRAY
+  let projects= [
+    {
+  title: "Sonic vs Road Runner",
+  github: "https://github.com/Kagisomphayi/Sonic-Roadrun",
+  netlify:"https://kagisomphayiroadrunner.netlify.app",
+  description: "A race between road runner and sonic.(CSS & HTML)",
+  img: "https://i.postimg.cc/RZcd1JZZ/sonicproject-min.png",
+  // html:"HTML"
+},
+{
+  title: "Ecommerce Website",
+  github: "https://github.com/Kagisomphayi/ASICSSTORE",
+  netlify:"https://kagisomphayiasics.netlify.app/",
+  description: "Ecommerce website built with JS, HTML and CSS.",
+  img: "https://i.postimg.cc/ydwnXmcW/Ecom.png",
+},
+{
+  title: "Cloning a website",
+  github: "https://github.com/Kagisomphayi/bootstrap",
+  netlify:"https://kagisomphayiclone.netlify.app",
+  description: "Cloning DOOB Website using Bootstrap,CSS & HTML.",
+  img: "https://i.postimg.cc/Bn9zT044/bootstrapclone.png",
+},
+{
+  title: "Javascript Calculator",
+  github: "https://github.com/Kagisomphayi/Calculator",
+  netlify:"https://kagisomphayicalculator.netlify.app/",
+  description: "Building a functioning calculator(HTML,CSS & JS",
+  img: "https://i.postimg.cc/1Xx9wdzT/calculator.png",
+},
+]
 
-//   let names = {name:"Kagiso",};
-
+// ROOT NODE
 app.get('/', function (req, res) {
-    res.send(resumes);
+    res.send('<h1>Hello World</h1>');
 });
+
+// ROUTE FOR RESUMES
+app.get('/resumes', function (req, res) {
+  res.send(resumes);
+});
+
+
+// ROUTE FOR PROJECTS
+app.get('/projects', function (req, res) {
+  res.send(projects);
+});
+
+
+// ROUTE FOR TESTINONIALS
+app.get('/testimonials', function (req, res) {
+  res.send(testimonials);
+});
+
 
 // app.get('/names', function (req, res) {
 //     res.send("kagiso");
