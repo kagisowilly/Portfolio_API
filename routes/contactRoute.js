@@ -10,10 +10,10 @@ app.post("/", (req, res) => {
 
   console.log(process.env.EMAIL, process.env.PASS)
   var transporter = nodemailer.createTransport({
-    service: "gmail",
+    // service: "gmail",
     host: "smtp.gmail.com",
     port: 465,
-    secure: true,
+    // secure: true,
     auth: {
       user: process.env.EMAIL,
       pass: process.env.PASS,
@@ -22,10 +22,16 @@ app.post("/", (req, res) => {
 
   var mailOptions = {
     from: email,
-    to: "mphayi96@gmail.com",
+    to: `${process.env.EMAIL}`,
     subject: `${subject}`,
     text: `${name} has messaged you saying ${message}`,
   };
+
+  transporter.verify((error, success) => {
+    if (error) {
+      console.log(error)
+    }
+  });
 
   transporter.sendMail(mailOptions, function (error, info) {
     if (error) {
