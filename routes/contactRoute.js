@@ -24,7 +24,9 @@ app.post("/", (req, res) => {
     from: email,
     to: `${process.env.EMAIL}`,
     subject: `${subject}`,
-    text: `${name} has messaged you saying ${message}`,
+    text: `${name} has messaged you saying ${message}
+    email  : ${email}
+    `,
   };
 
   transporter.verify((error, success) => {
