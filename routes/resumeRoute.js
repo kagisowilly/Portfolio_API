@@ -4,18 +4,18 @@ let resumes=  [
       id: 1,
       title: "Web Development",
       period: "September(2016) - Present",
-      description: `Life Choices is a year-long Bootcamp where we learn more about Web development and it's Fundamentals. We also get the oppotunity to learn interpersonal skills.`,
-      institution: "Life Choices acardemy",
+      description: `Life Choices is a year-long bootcamp where we learn more about Web development and its fundamentals. We also get the oppotunity to learn interpersonal skills.`,
+      institution: "LifeChoices coding acardemy",
      
     },
     {
       id: 2,
       title: "Customer Service",
-      description: `We got the opportunity to learn the importanceof strong
+      description: `We got the opportunity to learn the importance of strong
                   and consistent communication, dealing with a difficult
                   costomers, how to handle complaints and the value of
                   loyalty in the work industry.`,
-      institution: "E-learning colleg",
+      institution: "E-learning college",
       
       period: "August(2021)",
     },
@@ -23,7 +23,7 @@ let resumes=  [
       id: 3,
       title: "Private Tutoring & Self Learning",
       description: `I was tutoring grade 12 learners Maths and Physics. On my
-                  free time i was teaching myself HTML and CSS with the clearhelp
+                  free time i was teaching myself HTML and CSS with the clear help
                   of online content.`,
       institution: "",
 
@@ -32,9 +32,9 @@ let resumes=  [
     {
       id: 4,
       title: "Assisting First-Year Students",
-      description: `We were assisting first-year Students at the University Of
-                  Pretoria with Registering online and using Printing
-                  Machines.`,
+      description: `We were assisting first-year students at the University Of
+                  Pretoria with online registration and using printing
+                  machines.`,
       institution: "",
 
       period: "January-february(2018) & January-february(2019)",
@@ -43,8 +43,8 @@ let resumes=  [
     {
       id: 5,
       title: "Private Tutoring",
-      description: `During this Period i was tutoring some of the grade 12
-                  learners from my area Maths and Physics. The experience
+      description: `During this period I was tutoring some of the grade 12
+                  learners from my area maths and physics. The experience
                   helped me a lot with improving my communication skills.`,
       institution: "",
       
@@ -53,7 +53,7 @@ let resumes=  [
     {
       id: 6,
       title: "National Senior Certificate",
-      description: `During my time at this institution i learned to be a leader and i worked more on my time management.`,
+      description: `During my time at this institution I learned to be a leader and I worked more on my time management.`,
       institution: "Mmametlhake High School", 
       period: "January 2012 - December 2014",
     }
