@@ -23,7 +23,7 @@ let resumes=  [
       id: 3,
       title: "Private Tutoring & Self Learning",
       description: `I was tutoring grade 12 learners Maths and Physics. On my
-                  free time i was teaching myself HTML and CSS with the clear help
+                  free time I was teaching myself HTML and CSS with the clear help
                   of online content.`,
       institution: "",
 
