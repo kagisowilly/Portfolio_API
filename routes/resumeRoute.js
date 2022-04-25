@@ -11,10 +11,7 @@ let resumes=  [
     {
       id: 2,
       title: "Customer Service",
-      description: `The fundamentals of the course was about the importance of strong
-                  and consistent communication, dealing with a difficult
-                  costomers, how to handle complaints and the value of
-                  loyalty in the work industry.`,
+      description: `I was offered the opportunity to learn the importance of strong and consistent communication; how to handle difficult customers; how to handle complaints; and the value of loyalty in the work place.`,
       institution: "eLearning College",
       
       period: "August(2021)",
@@ -24,7 +21,7 @@ let resumes=  [
       title: "Private Tutoring & Self-learning",
       description: `Throughout the year, I tutored the grade 12 learners from my area maths and physics, and I also used the time in between to
                     teach myself HTML and CSS with the clear help
-                    of online content.`,
+                    of online resources.`,
       institution: "",
 
       period: "January 2020 - November 2020",
@@ -32,9 +29,7 @@ let resumes=  [
     {
       id: 4,
       title: "Assisting First-Year Students",
-      description: `We were assisting first-year students at the University Of
-                  Pretoria with online registration and guiding them on how to use printing
-                  machines.`,
+      description: `I was assisting first-year Students at the University Of Pretoria with online registration and using peripheral equipment.`,
       institution: "",
 
       period: "January-February(2018) & January-February(2019)",
