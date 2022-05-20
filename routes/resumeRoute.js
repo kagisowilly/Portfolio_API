@@ -1,7 +1,16 @@
 // RESUME ARRAY
 let resumes=  [
+  {
+    id: 1,
+    title: "Full Stack Developer Intern",
+    period: "April(2022) - Present",
+    description: `I have been working on real-life projects in the LC Studio, which is the newly launched web development agency for Life Choices run by Project Managers, Team Leaders and Developers.
+    I am in the web-apps team and my duties include building websites using JavaScript, Bootstrap, HTML, CSS, Vue.js, Node.js, MongoDb, MySQL and PostgreSQL.`,
+    institution: "LC Studios",
+   
+  },
     {
-      id: 1,
+      id: 2,
       title: "Web Development",
       period: "September(2016) - Present",
       description: `Life Choices is a year-long bootcamp where we learn more about Web development and its fundamentals. We also get the oppotunity to learn interpersonal skills.`,
@@ -9,7 +18,7 @@ let resumes=  [
      
     },
     {
-      id: 2,
+      id: 3,
       title: "Customer Service",
       description: `I was offered the opportunity to learn the importance of strong and consistent communication; how to handle difficult customers; how to handle complaints; and the value of loyalty in the work place.`,
       institution: "eLearning College",
@@ -17,7 +26,7 @@ let resumes=  [
       period: "August(2021)",
     },
     {
-      id: 3,
+      id: 4,
       title: "Private Tutoring & Self-learning",
       description: `Throughout the year, I tutored the grade 12 learners from my area maths and physics, and I also used the time in between to
                     teach myself HTML and CSS with the clear help
@@ -27,16 +36,17 @@ let resumes=  [
       period: "January 2020 - November 2020",
     },
     {
-      id: 4,
+      id: 5,
       title: "Assisting First-Year Students",
       description: `I was assisting first-year Students at the University Of Pretoria with online registration and using peripheral equipment.`,
       institution: "",
 
       period: "January-February(2018) & January-February(2019)",
-    },
+    }
+    ,
 
     {
-      id: 5,
+      id: 6,
       title: "Private Tutoring",
       description: `During this period I was tutoring some of the grade 12
                   learners from my area maths and physics. The experience
@@ -46,7 +56,7 @@ let resumes=  [
       period: "January 2015 - December 2015",
     },
     {
-      id: 6,
+      id: 7,
       title: "National Senior Certificate",
       description: `During my time at this institution I improved my social skills, and worked more on my time management.`,
       institution: "Mmametlhake High School", 

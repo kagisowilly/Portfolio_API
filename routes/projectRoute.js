@@ -55,6 +55,22 @@ let projects= [
   description: "Converts celsius to fahrenheit(HTML,Javascript and CSS)",
   img: "https://i.postimg.cc/ZnGGbq5S/Tempe-convert.png",
 },
+{
+  id: 7,
+  title: "Vue E-commerce Store",
+  github: "https://github.com/kagisowilly/Bakery-Burst-POS-front",
+  netlify:"https://bakery-burst.netlify.app/",
+  description: "We worked in a pair to build an E-commerse store using Bootstrap,Vuejs ,Node Js(express) and MongoDb",
+  img: "https://i.postimg.cc/bYTXLPbq/Capture.png",
+},
+{
+  id: 8,
+  title: "Booking System",
+  github: "https://github.com/kagisowilly/Laundry-Villa",
+  netlify:"https://laundry-villa.netlify.app/#/",
+  description: "Built a booking system using Node Js(express), MongoDb, Vue JS and Bootstrap",
+  img: "https://i.postimg.cc/qMP9v7HX/laundry-villa.png",
+}
 ]
 
 // ROUTE FOR PROJECTS
