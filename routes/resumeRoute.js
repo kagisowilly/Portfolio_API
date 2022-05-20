@@ -12,7 +12,7 @@ let resumes=  [
     {
       id: 2,
       title: "Web Development",
-      period: "September(2016) - Present",
+      period: "September(2021) - March(2022",
       description: `Life Choices is a year-long bootcamp where we learn more about Web development and its fundamentals. We also get the oppotunity to learn interpersonal skills.`,
       institution: "LifeChoices Coding Academy",
      
