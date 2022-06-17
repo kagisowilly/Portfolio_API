@@ -10,25 +10,24 @@ let testimonials=[
     id:1,
     name: "Godwin Dzvapatsva",
     image: `https://i.postimg.cc/sxwJ0ncd/Godwin.jpg`,
-    role: `Head Of Curriculum And Learning @ Lifechoices Coding Acardemy`,
+    role: `Head Of Curriculum And Learning|Lifechoices Coding Acardemy`,
     description: `Kagiso is a diligent student who thrives to do the best and is always time concious.I recommend him.`,
   },
   {
     id: 2,
     name: "Azabenathi Pupuma",
     image: "https://i.postimg.cc/289wQKyn/Aza-min.jpg",
-    role: `Web Developer`,
+    role: `Web developer`,
     description: `Kagiso is one of the hard workers you could come across. He always ensure that he gets the hang of his work and he does not stop until he finishes. He is goal oriented.`,
   },
   {
     id: 3,
     name: "Jason Wandrag",
     image: `https://i.postimg.cc/4y2q3kzX/jason.jpg`,
-    role: "Lecture @ Lifechoices Coding Academy",
+    role: "Lecturer|Lifechoices Coding Academy",
 
     description: `Kagiso has a sharp mind and keen intellect. He is both a hard worker and considerate colleague. Kagiso also displays a calm nature, and he is not easily disturbed. He has the making to become an incredible developer, and I wish him all the best for his career.`,
   },
-
   {
     id:4,
     name: "Nomzuyiseko Mpofu",
@@ -39,22 +38,18 @@ let testimonials=[
   },
   {
     id:5,
-    name: "Lilitha Mantini",
-    image: `https://i.postimg.cc/rFDymDrM/Lilitha-min.jpg`,
-    role: "Web Developer",
-
+    name: "Joel Tshimanga Mukanya",
+    image: `https://i.postimg.cc/bv9ZSWfQ/Joel.jpg`,
+    role: "Lecturer|Lifechoices Coding Academy",
     description: `I have worked closely on a group with Kagiso. He's a team player with good communication skills, not afraid of challenges and always willing to assist where he can.`,
   },
-
   {
     id:6,
     name: "Ashley Kannermeyer",
     image: `https://i.postimg.cc/fyQYzjZR/Ash.jpg`,
-    role: "Web Developer",
-
+    role: "Web developer",
     description: `Kagiso is a very hard worker and always eager to help.`,
   },
-
 ]
 
 // ROUTE FOR TESTIMONIALS
@@ -107,11 +102,8 @@ app.put("/:id", (req, res) => {
   if (image) testimonials.image = image;
   if (role) testimonials.role = role;
   if (description) testimonials.description = description;
-
-
   res.send(testimonial);
 });
-
   
 // DELETE TESTIMONIAL
 app.delete("/:id", (req, res) => {
