@@ -9,7 +9,7 @@ let resumes=  [
   },
   {
     id: 2,
-    title: "FULL_STACK DEVELOPER INTERN",
+    title: "FULL-STACK DEVELOPER INTERN",
     period: "April(2022) - June(2022)",
     description: `I have been working on real-life projects in the LC Studio, which is the newly launched web development agency for Life Choices run by Project Managers, Team Leaders and Developers.
     I am in the web-apps team and my duties include building websites using JavaScript, Bootstrap, HTML, CSS, Vue.js, Node.js, MongoDb, MySQL and PostgreSQL.`,
