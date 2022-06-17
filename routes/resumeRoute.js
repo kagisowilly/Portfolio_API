@@ -3,7 +3,7 @@ let resumes=  [
     {
     id: 1,
     title: "ASSISTANT LECTURER",
-    period: "April(2022) - Present,
+    period: "April(2022) - Present",
     description: ``,
     institution: "LifeChoices Coding Academy",
    
