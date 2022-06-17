@@ -10,7 +10,7 @@ let testimonials=[
     id:1,
     name: "Godwin Dzvapatsva",
     image: `https://i.postimg.cc/sxwJ0ncd/Godwin.jpg`,
-    role: `Head Of Curriculum And Learning|Lifechoices Coding Acardemy`,
+    role: `Head Of Curriculum And Learning | Lifechoices Coding Acardemy`,
     description: `Kagiso is a diligent student who thrives to do the best and is always time concious.I recommend him.`,
   },
   {
@@ -24,7 +24,7 @@ let testimonials=[
     id: 3,
     name: "Jason Wandrag",
     image: `https://i.postimg.cc/4y2q3kzX/jason.jpg`,
-    role: "Lecturer|Lifechoices Coding Academy",
+    role: "Lecturer | Lifechoices Coding Academy",
 
     description: `Kagiso has a sharp mind and keen intellect. He is both a hard worker and considerate colleague. Kagiso also displays a calm nature, and he is not easily disturbed. He has the making to become an incredible developer, and I wish him all the best for his career.`,
   },
@@ -40,7 +40,7 @@ let testimonials=[
     id:5,
     name: "Joel Tshimanga Mukanya",
     image: `https://i.postimg.cc/bv9ZSWfQ/Joel.jpg`,
-    role: "Lecturer|Lifechoices Coding Academy",
+    role: "Lecturer | Lifechoices Coding Academy",
     description: `I have worked closely on a group with Kagiso. He's a team player with good communication skills, not afraid of challenges and always willing to assist where he can.`,
   },
   {
