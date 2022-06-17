@@ -41,7 +41,7 @@ let testimonials=[
     name: "Joel Tshimanga Mukanya",
     image: `https://i.postimg.cc/bv9ZSWfQ/Joel.jpg`,
     role: "Lecturer | Lifechoices Coding Academy",
-    description: `I have worked closely on a group with Kagiso. He's a team player with good communication skills, not afraid of challenges and always willing to assist where he can.`,
+    description: `Kagiso Mphayi is a very talented individual with a determination and has shown great qualities in the time we have worked together. He assisted in the classroom and was a great asset to have in addition is very hardworking and always assisting those in need.`,
   },
   {
     id:6,
