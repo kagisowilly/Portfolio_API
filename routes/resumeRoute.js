@@ -1,15 +1,23 @@
 // RESUME ARRAY
 let resumes=  [
-  {
+    {
     id: 1,
     title: "ASSISTANT LECTURER",
     period: "April(2022) - Present",
     description: ``,
     institution: "LifeChoices Coding Academy",
+<<<<<<< HEAD
   },
   {
     id: 2,
     title: "FULL-STACK DEVELOPER INTERN",
+=======
+   
+  },
+  {
+    id: 2,
+    title: "FULL_STACK DEVELOPER INTERN",
+>>>>>>> 3bb5a7b5391a06e704c4b126c50322bf11fba0e6
     period: "April(2022) - June(2022)",
     description: `I have been working on real-life projects in the LC Studio, which is the newly launched web development agency for Life Choices run by Project Managers, Team Leaders and Developers.
     I am in the web-apps team and my duties include building websites using JavaScript, Bootstrap, HTML, CSS, Vue.js, Node.js, MongoDb, MySQL and PostgreSQL.`,
@@ -20,6 +28,7 @@ let resumes=  [
       title: "WEB DEVELOPMENT",
       period: "September(2016) - Present",
       description: `Life Choices is a year-long bootcamp where we learn more about Web development and its fundamentals. We also get the oppotunity to learn interpersonal skills.`,
+<<<<<<< HEAD
       institution: "LifeChoices Coding Academy",  
     },
     {
@@ -30,6 +39,20 @@ let resumes=  [
       period: "August(2021)",
     },
     {
+=======
+      institution: "LifeChoices Coding Academy",
+     
+    },
+    {
+      id: 4,
+      title: "CUSTOMER SERVICE",
+      description: `I was offered the opportunity to learn the importance of strong and consistent communication; how to handle difficult customers; how to handle complaints; and the value of loyalty in the work place.`,
+      institution: "eLearning College",
+      
+      period: "August(2021)",
+    },
+    {
+>>>>>>> 3bb5a7b5391a06e704c4b126c50322bf11fba0e6
       id: 5,
       title: "PRIVATE TUTORING|SELF-LEARNING",
       description: `Throughout the year, I tutored the grade 12 learners from my area maths and physics, and I also used the time in between to
