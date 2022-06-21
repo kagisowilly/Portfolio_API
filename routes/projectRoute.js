@@ -20,7 +20,7 @@ let projects= [
   title: "Ecommerce Website",
   github: "https://github.com/Kagisomphayi/ASICSSTORE",
   netlify:"https://kagisomphayiasics.netlify.app/",
-  description: "Ecommerce website built with JS, HTML and CSS.",
+  description: "Ecommerce website built with JS, HTML, and CSS.",
   img: "https://i.postimg.cc/ydwnXmcW/Ecom.png",
 },
 {
